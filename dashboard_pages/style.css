@@ -53,8 +53,14 @@ body {
 #footer{
     background-color: teal;
     font-family: 'Segoe UI';
-    color: white
+    color: white;
+    height: 35px;
 
+
+}
+
+#footer-text{
+    text-align: center;
 
 }
 

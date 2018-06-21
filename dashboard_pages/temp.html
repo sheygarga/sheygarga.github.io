@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Wind Speed</title>
+    <title>Temperature</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel='stylesheet' type ="text/css" href='https://fonts.googleapis.com/css?family=Arimo' >
@@ -26,6 +26,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
+                <li><a href="../index.html">Home</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plots<b class="caret"></b></a>
                     <ul class="dropdown-menu">
@@ -48,17 +49,17 @@
             <div class="col-sm-8">
                 <div class="panel panel-primary">
                     <div class="panel-heading" id = 'lat-sum-header'>
-                        <h3 class="panel-title" id = 'lat-sum'>Latitude vs Wind Speed</h3>
+                        <h3 class="panel-title" id = 'lat-sum'>Latitude vs Max Temperature</h3>
                     </div>
                     <div class="panel-body">
                         
                         <div class="media" align = 'center'>
                             <a class="media-middle" href="#">
-                                <img class="media-object" id = "data-pic" src="output_data/Fig4.png" alt="Image" >
+                                <img class="media-object" id = "data-pic" src="../output_data/Fig1.png" alt="Image" >
                             </a>
                             <div class="media-body" id = 'data-text'>
                                     <hr>
-                                    <p>Wind speed tends to remain largely similar across the globe until we reach 60 degrees North. Around there we observed large jumps in wind speed including the maximum speed observed at about 60 mph as well as other high values between 40 and 50 mph. Due to the lack of vegetation and large structures as a whole at latitudes that high, there is very little resistance for the wind to slow it down which likely caused such high values. The winds were also likely further strengthened by the amount of water at this latitude.</p>
+                                    <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the Southern Hemisphere tends to be warmer this time of year than the Northern Hemisphere, likely due to the tilt of the Earth and the difference in seasons at different times of the year for each hemisphere.</p>
                                 </div>
                         </div>
                         
@@ -75,13 +76,13 @@
                     </div>
                     <div class="panel-body">
                         
-                        <a href = 'temp.html'><img class="img-responsive" id = "img-fig-1" src="output_data/Fig1.png" alt="Image"></a>
+                        <a href = 'temp.html'><img class="img-responsive" id = "img-fig-1" src="../output_data/Fig1.png" alt="Image"></a>
     
-                        <a href="humidity.html"><img class="img-responsive" id = "img-fig-2" src="output_data/Fig2.png" alt="Image"></a>
+                        <a href="humidity.html"><img class="img-responsive" id = "img-fig-2" src="../output_data/Fig2.png" alt="Image"></a>
                         
-                        <a href="cloudiness.html"><img class="img-responsive" id = "img-fig-3" src="output_data/Fig3.png" alt="Image"></a>
+                        <a href="cloudiness.html"><img class="img-responsive" id = "img-fig-3" src="../output_data/Fig3.png" alt="Image"></a>
     
-                        <a href="wind.html"><img class="img-responsive" id = "img-fig-4" src="output_data/Fig4.png" alt="Image"></a>
+                        <a href="wind.html"><img class="img-responsive" id = "img-fig-4" src="../output_data/Fig4.png" alt="Image"></a>
                         
                     </div>
                     
@@ -92,11 +93,11 @@
         </div>
 
 
-
-    <div class="footer navbar-fixed-bottom" id = 'footer'>
+    <div class="footer fixed-bottom" id = 'footer'>
         <h3 class="text-center" id = 'footer-text'>Project Created by Shey Garga</h3>
             
     </div>
+
 
 
 
